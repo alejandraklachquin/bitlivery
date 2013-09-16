@@ -1,9 +1,9 @@
  #!/bin/bash
         # Author: fabricio@land.ufrj.br
         # Date: 2009-11-10
-        # Last modified: 2010-02-21
+        # Last modified: 2013-09-15 by alejandra@land.ufrj.br
         # Description: This script sets many variables in
-        #              the tangram-II model of BitTorrent Luiz_Torrent_V_21*.obj
+        #              the bitlivery simulator
         
         #CODIGO DE DIVISAO DE GRUPOS
                
@@ -21,6 +21,7 @@
         NUMBER_CLIENTS=250
         KNOWLEDGE=100
         MAX_CONNECTIONS_ATTEMPT=100
+        #Caso NUMBER_SERVERS_DOWN seja diferente de zero, as duas variaveis seguintes devem ser preenchidas
         NUMBER_SERVERS_DOWN=50
         TIME_SERVERS_DOWN=3000
         TIME_SERVERS_UP=7000
@@ -47,17 +48,17 @@
         MIN_CAP_CLIENT=100
         #setar variaveis se RANDOM == 1 ou BAND_DIVISION = 0 / fim
 
-        #CONNLIMIT 1
-        #OVERHEAD 2
+        #if CONNLIMIT 1
+        #if OVERHEAD 2
         ALGORITHM=2
 
-
-        
-        
+        #Variaveis para algoritmo CONNLIMIT
         CONNECTION_LIMIT=1
         DROP_SERVERS=1
         SET_SIZE=2
         INITIAL_SET_SIZE=1
+        
+
         FILE_SIZE=1000000
         MAX_TIME=100000
         
