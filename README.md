@@ -9,3 +9,5 @@ Após modificar os parâmetros deve-se executar o script.
 Como o simulador será recompilado, é necessário possuir um compilador c/c++ instalado na estação.
 
 Para inserir diferentes tempos de entrada para clientes ou servidores (e saida para servidores) é necessário modificar o arquivo main.cpp, seções "Criando eventos de saida e entrada de servidores" e "Criando eventos de chegada, saida e fluxo".
+
+-> simulador especifico desenvolvido para avaliar o algoritmo proposto em:  https://www.cos.ufrj.br/uploadfile/1397146149.pdf
